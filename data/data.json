@@ -1,0 +1,201 @@
+{
+  "data": {
+    "fullName": "Nisrina Ikbar",
+    "navtext": "Nisrina Ikbar",
+    "email": "nisrinay24@gmail.com",
+    "titleArray": [
+      "Data Engineer",
+      "Data Analyst",
+      "Backend Developer"
+    ],
+    "resumeLink": "https://drive.google.com/file/d/1FEFfbOdQCNnWAvoRdQ6UnuzO9LIEMwQA/view?usp=sharing",
+
+    "skills": [
+        "/icons/Python.png", 
+        "/icons/MySQL.png", 
+        "/icons/PostgreSQL.png",
+        "/icons/Google-Cloud.png",
+        "/icons/Docker.png",
+        "/icons/Linux.png",
+        "/icons/Git.png",
+        "/icons/BigQuery.png",
+        "/icons/Snowflake.png",
+        "/icons/Airflow.png",
+        "/icons/Grafana.png",
+        "/icons/Prometheus.png",
+        "/icons/PowerBI.png",
+        "/icons/Codeigniter.png"
+    ],
+    "workExperience": [
+      {
+        "position": "Backend Developer Intern",
+        "company": "CELOE Telkom University",
+        "duration": "Jun 2025 - Aug 2025",
+        "description": "Developed backend services for a Document Management System (DMS) focusing on secure document management and access control.",
+        "details": [
+          "Developed backend services for Document Management System (DMS)",
+          "Designed and managed relational database using MySQL",
+          "Implemented Role-Based Access Control (RBAC)",
+          "Performed functional testing and user acceptance testing"
+        ],
+        "image": "/images/work/dms-backend.png"
+      },
+      {
+        "position": "Innovation Challenge Finalist (Top 24)",
+        "company": "IndonesiaNEXT by Telkomsel",
+        "duration": "2024",
+        "description": "Selected as Top 24 Digital Talent in the 9th IndonesiaNEXT Innovation Challenge by Telkomsel, developing an AI-powered productivity platform called LockIn.",
+        "details": [
+          "Developed LockIn, an AI-powered platform designed to help users stay focused and manage digital distractions",
+          "Implemented key features including Focus Mode, AI Journal, Tasks & Goals management, and a productivity dashboard",
+          "Collaborated with a multidisciplinary team including business strategist and product designer",
+          "Presented the solution to industry mentors and judges during the IndonesiaNEXT innovation program"
+        ],
+        "image": "/images/work/indonesianext.jpg"
+      },
+      {
+        "position": "Research Assistant & HR Staff",
+        "company": "Adaptive Network Laboratory",
+        "duration": "2024",
+        "description": "Contributed to research activities and organizational management within the Adaptive Network Laboratory.",
+        "details": [
+          "Participated in research discussions and activities related to networking systems",
+          "Supported lab coordination and internal team management",
+          "Assisted in organizing lab programs and member activities",
+          "Handled basic HR-related tasks including coordination and team communication"
+        ],
+        "image": "/images/work/adaptive-network-lab.jpg"
+      }
+    ],
+
+    "projects": [
+    
+        {
+        "title": "E-commerce Data Engineering Pipeline",
+        "type": "Data Engineering Project",
+        "description": "Designed and orchestrated an end-to-end e-commerce data pipeline simulating 100k+ marketplace transactions. Built hourly ETL workflows using Apache Airflow integrating PostgreSQL, Google Cloud Storage, and BigQuery. Implemented data quality validation with Great Expectations and monitoring using Grafana and Prometheus.",
+        "techStack": [
+          "Python",
+          "Airflow",
+          "PostgreSQL",
+          "BigQuery",
+          "GCP",
+          "Docker",
+          "Great Expectations"
+        ],
+        "category": "Data Engineering",
+        "image": "/images/projects/ecommerce-pipeline.png",
+        "liveLink": "",
+        "githubLink": ""
+      },
+      {
+        "title": "End-to-End Data Engineering Pipeline with Airflow, dbt & Snowflake",
+        "type": "Data Engineering Project",
+        "description": "Built production-style data  pipeline using Airflow for orchestration, dbt for transformation, and Snowflake as the data warehouse. Automated ingestion, transformation, testing, and documentation in a containerized Docker environment.",
+        "techStack": [
+          "Python",
+          "Airflow",
+          "dbt",
+          "Snowflake",
+          "Docker"
+        ],
+        "category": "Data Engineering",
+        "image": "/images/projects/airflow-dbt.png",
+        "liveLink": "",
+        "githubLink": "https://github.com/nissrinayy/production-data-pipeline"
+      },
+      {
+        "title": "Weather ETL Pipeline",
+        "type": "ETL Automation",
+        "description": "Developed a production-ready ETL pipeline to extract weather data from a public API and load it into PostgreSQL. Orchestrated daily workflows using Apache Airflow with logging, retries, and monitoring.",
+        "techStack": [
+          "Python",
+          "Airflow",
+          "PostgreSQL"
+        ],
+        "category": "Data Engineering",
+        "image": "/images/projects/weather-etl.png",
+        "liveLink": "",
+        "githubLink": "https://github.com/nissrinayy/weather-etl-pipeline"
+      },
+      {
+        "title": "Hotel Booking Analytics Dashboard",
+        "type": "Data Analytics Project",
+        "description": "Interactive dashboard analyzing 70k+ bookings to identify seasonality, cancellation trends, and channel performance.",
+        "techStack": [
+          "SQL",
+          "Python",
+          "Power BI"
+        ],
+        "category": "Data Analytics",
+        "image": "/images/projects/hotel-analytics-dashboard.png",
+        "liveLink": "",
+        "githubLink": "https://www.canva.com/design/DAHCP4APsGk/hShXCdL6pQLIMAMOd2aF7A/edit?utm_content=DAHCP4APsGk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+      },
+      {
+        "title": "Document Management System Backend",
+        "type": "Internship Project",
+        "description": "Developed backend services for a Document Management System (DMS) during internship at CELOE Telkom University. Designed relational databases using MySQL and implemented role-based access control (RBAC) for secure data access.",
+        "techStack": [
+          "Python",
+          "MySQL",
+          "RBAC",
+          "Backend Development"
+        ],
+        "category": "Backend",
+        "image": "/images/projects/dms-backend.png",
+        "liveLink": "",
+        "githubLink": "https://github.com/hnnayy/magang-DMS"
+      },
+      {
+        "title": "LockIn – AI Productivity Platform",
+        "type": "IndonesiaNEXT Project",
+        "description": "LockIn is an AI-powered productivity platform designed to help users stay focused and manage digital distractions. The platform integrates focus tools, habit reflection, and progress tracking into a single system to support better productivity habits.",
+        "techStack": [
+          "AI",
+          "Product Design",
+          "Flutter",
+          "Product Development"
+          
+        ],
+        "category": "AI / Productivity",
+        "image": "/images/projects/lockin.png",
+        "liveLink": "https://lockinapp.id/",
+        "githubLink": ""
+      }
+    ],
+    "achievements": [
+    {
+        "title": "Finalist (Top 24) – 9th IndonesiaNEXT Innovation Challenge",
+        "organization": "Telkomsel",
+        "description": "Selected among 9,692 participants nationwide. Contributed in technical role to develop LockIn, an AI-powered productivity platform and presented at IndonesiaNEXT Summit 2025.",
+        "year": "2025",
+        "image": "/images/achievements/indonesianext.png"
+    },
+    {
+        "title": "2nd Place Winner – Cybersecurity Hackathon 'Ultimate Test Drive'",
+        "organization": "Palo Alto Networks",
+        "description": "Awarded 2nd place for developing and presenting a cybersecurity solution in a national-level cybersecurity hackathon.",
+        "year": "2025",
+        "image": "/images/achievements/paloalto.png"
+    }
+    ],
+    "about": {
+      "main": "I’m Nisrina, a Computer Engineering undergraduate passionate about Data Engineering and Analytics.",
+      "skills": [
+        "Data Engineering",
+        "Data Analytics",
+        "Backend Development",
+        "Cloud-Based Systems"
+      ],
+      "journey": "Currently studying at Telkom University (GPA 3.58), I focus on building scalable data pipelines, designing relational databases, and developing reliable backend systems.",
+      "passion": "I enjoy transforming raw data into actionable insights and building systems that support data-driven decision making using Airflow, BigQuery, PostgreSQL, and cloud technologies.",
+      "connect": "Feel free to explore my projects and connect with me for collaboration or opportunities."
+    },
+
+    "socialLinks": {
+      "github": "https://github.com/nissrinayy",
+      "linkedin": "https://www.linkedin.com/in/nisrina-ikbar/"
+    }
+  }
+}
